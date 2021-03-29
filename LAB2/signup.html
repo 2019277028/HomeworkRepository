@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>로그인하세요</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>welcome to my shop</h1>
+        <p>
+            <a href = "login.html">로그인</a>
+            회원가입
+        </p>
+        <from method = "GET" action = "login.html">
+            <p>
+                <label>이름 : <input name="name" autofocus required/></label>
+            </p>
+            <p>
+                <label>생일 : <input name="date" type="date" required/></label> (yyyy-mm-dd)
+            </p>
+            <p>
+                <label>이메일 : <input name="email" type="email" placeholder="name@domain.com" required /></label>
+            </p>
+            <p>
+                <label>학년 : <input name="number" type="number" type="number" min ="1" max="4" step="1" value="1" /></label>
+            </p>
+            <p>
+                <label>전화번호 : <input name="tel" type="tel" placeholder="###-####-####" pattern="\d{3}-\d{4}-\d{4}" required /></label>
+            </p>
+            <p>
+                <label>ID : <input name="id" type="text" placeholder="아이디를 입력하세요" required autocomplete="on"/> </label>
+            </p>
+            <p>
+                <label>Password : <input name="Password" type="password" placeholder="비밀번호를 입력하세요" required autocomplete="off"/></label>
+            </p>
+            <p>
+                <label>Password 확인 : <input name="Repassword" type="password" placeholder="비밀번호를 확인하세요" required autocomplete="off" /></label>
+            </p>
+            <div class="button">
+                <p id="signup">sign up</p>
+            </div>
+            <div class="button">
+                <p id="cancel">cancel</p>
+            </div>
+            
+        </from>
+    </body>
+
+</html>

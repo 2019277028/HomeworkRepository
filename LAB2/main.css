@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.button {
+    border: 2px groove;
+    width: 6em;
+    height: 1.3em;
+    margin: 0em;
+    text-align: center;
+    color:black;
+}
+
+#signup {
+    background-color: lemonchiffon;
+    margin: 0em;
+    padding: 0em;
+}
+
+#cancel {
+    background-color: cornflowerblue;
+    margin: 0em;
+    padding: 0em;
+    
+}
+
+#로그인 {
+    background-color: lightblue;
+    margin: 0em;
+    padding: 0em;
+}
+
+#회원가입 {
+    background-color: lightpink;
+    margin: 0em;
+    padding: 0em;
+    
+}
