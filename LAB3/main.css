@@ -1,0 +1,85 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.button {
+    border: 2px groove;
+    width: 6em;
+    height: 1.3em;
+    margin: 0em;
+    text-align: center;
+    color:black;
+}
+
+#signup {
+    background-color: lemonchiffon;
+    margin: 0em;
+    padding: 0em;
+}
+
+#cancel {
+    background-color: cornflowerblue;
+    margin: 0em;
+    padding: 0em;
+    
+}
+
+#로그인 {
+    background-color: lightblue;
+    margin: 0em;
+    padding: 0em;
+}
+
+#회원가입 {
+    background-color: lightpink;
+    margin: 0em;
+    padding: 0em;
+    
+}
+
+
+
+.indexing {
+    width: 1020px;
+    margin: auto;
+    
+}
+
+#header {
+    animation-duration: 2s;
+    animation-name: slidein; 
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.img_hover{
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+}
+
+img:hover{
+    transition: transform 2s;
+    transform-origin: 0% 0%;
+    transform: rotate(360deg) scale(3,3);
+}
+
+.boxing {
+    column-count: 2;
+    column-gap: 20px;
+    column-width: 120px;
+    column-rule-style: groove;
+    column-rule-width: 1px ;
+
+}
+    
